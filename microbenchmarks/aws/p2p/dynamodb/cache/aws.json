@@ -1,0 +1,17 @@
+{
+  "region": "us-east-1",
+  "credentials": {
+    "access_key": "",
+    "secret_key": ""
+  },
+  "resources": {
+    "resources_id": "461254da",
+    "storage_buckets": {
+      "experiments": "sebs-experiments-461254da"
+    },
+    "key-value-tables": {
+      "experiments": "sebs-experiments-461254da"
+    },
+    "lambda-role": ""
+  }
+}

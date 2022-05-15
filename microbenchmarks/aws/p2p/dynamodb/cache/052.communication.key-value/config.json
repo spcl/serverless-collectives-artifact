@@ -1,0 +1,43 @@
+{
+  "aws": {
+    "cpp": {
+      "code_package": {
+        "all": {
+          "date": {
+            "created": "2022-05-15 14:41:15.214706",
+            "modified": "2022-05-15 14:41:15.214706"
+          },
+          "hash": "9aafb1da9e295d60b649205077c9e6c1",
+          "location": "052.communication.key-value/aws/cpp/all/benchmark.zip",
+          "size": 13304830
+        }
+      },
+      "functions": {
+        "052_communication_key_value_cpp_all": {
+          "arn": "arn:aws:lambda:us-east-1:261490803749:function:052_communication_key_value_cpp_all",
+          "benchmark": "052.communication.key-value",
+          "bucket": null,
+          "config": {
+            "architecture": "x86",
+            "memory": 2048,
+            "runtime": {
+              "language": "cpp",
+              "version": "all"
+            },
+            "timeout": 540
+          },
+          "hash": "9aafb1da9e295d60b649205077c9e6c1",
+          "name": "052_communication_key_value_cpp_all",
+          "role": "arn:aws:iam::261490803749:role/sebs-lambda-role",
+          "runtime": "all",
+          "triggers": [
+            {
+              "name": "052_communication_key_value_cpp_all",
+              "type": "Library"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
