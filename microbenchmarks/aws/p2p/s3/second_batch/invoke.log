@@ -1,0 +1,1387 @@
+15:03:25,395 INFO SeBS-f3b8: Created experiment output at /home/mcopik/projects/ETH/serverless/2020_sebs/branch_comm/results_s3
+15:03:25,433 INFO AWS.Resources-9d95: No resources for AWS found, initialize!
+15:03:25,433 INFO AWS.Config-ce28: Using user-provided config for AWS
+15:03:25,490 INFO Benchmark-6531: Building benchmark 051.communication.storage. Reason: no cached code package.
+15:03:25,494 INFO Benchmark-6531: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.cpp.all
+15:03:25,494 INFO Benchmark-6531: Docker mount of benchmark code from path /home/mcopik/projects/ETH/serverless/2020_sebs/branch_comm/results_s3/051.communication.storage_code/cpp/all
+15:03:39,893 INFO Benchmark-6531: Docker build:      for(int i = 0; i < retries_times.size(); ++i)
+15:03:39,893 INFO AWS-b140: Created /home/mcopik/projects/ETH/serverless/2020_sebs/branch_comm/results_s3/051.communication.storage_code/cpp/all/build/benchmark.zip archive
+15:03:39,893 INFO AWS-b140: Zip archive size 12.687696 MB
+15:03:39,894 INFO Benchmark-6531: Created code package (source hash: ac96821d00b4822b88d51cbc5f816565), for run on aws with cpp:all
+15:03:39,904 INFO AWS-b140: Creating new function! Reason: function 051_communication_storage_cpp_all not found in cache.
+15:03:40,616 INFO AWS-b140: Function 051_communication_storage_cpp_all exists on AWS, retrieve configuration.
+15:03:41,252 INFO AWS.Resources-9d95: AWS: Selected arn:aws:iam::261490803749:role/sebs-lambda-role IAM role
+15:03:48,19 INFO AWS-b140: Waiting for Lambda function to be updated...
+15:03:49,358 INFO AWS-b140: Lambda function has been updated.
+15:03:49,358 INFO AWS-b140: Updated code of 051_communication_storage_cpp_all function. 
+15:03:49,550 INFO AWS-b140: Waiting for Lambda function to be updated...
+15:03:51,87 INFO AWS-b140: Lambda function has been updated.
+15:03:51,88 INFO AWS-b140: Updated configuration of 051_communication_storage_cpp_all function. 
+15:03:51,91 INFO AWS-b140: Waiting for Lambda function to be updated...
+15:03:51,292 INFO AWS-b140: Lambda function has been updated.
+15:03:51,292 INFO AWS-b140: Published new function code
+15:03:51,298 INFO AWS.S3-3555: Initialize a new bucket for experiments results
+15:03:52,111 INFO AWS.S3-3555: Created bucket sebs-experiments-680570d8
+15:03:52,112 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-1faace22, with 2097152 size, with 10  invocations per function call.
+15:03:52,112 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 0.
+15:03:58,322 INFO Experiment.CommunicationP2P-9da0: Finished 10/1000
+15:03:58,323 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 15.
+15:04:04,201 INFO Experiment.CommunicationP2P-9da0: Finished 20/1000
+15:04:04,202 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 30.
+15:04:09,723 INFO Experiment.CommunicationP2P-9da0: Finished 30/1000
+15:04:09,723 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 45.
+15:04:14,907 INFO Experiment.CommunicationP2P-9da0: Finished 40/1000
+15:04:14,907 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 60.
+15:04:20,311 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+15:04:20,311 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 75.
+15:04:26,315 INFO Experiment.CommunicationP2P-9da0: Finished 60/1000
+15:04:26,315 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 90.
+15:04:31,905 INFO Experiment.CommunicationP2P-9da0: Finished 70/1000
+15:04:31,905 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 105.
+15:04:37,375 INFO Experiment.CommunicationP2P-9da0: Finished 80/1000
+15:04:37,375 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 120.
+15:04:42,928 INFO Experiment.CommunicationP2P-9da0: Finished 90/1000
+15:04:42,928 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 135.
+15:04:48,67 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+15:04:48,67 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 150.
+15:04:53,381 INFO Experiment.CommunicationP2P-9da0: Finished 110/1000
+15:04:53,381 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 165.
+15:04:58,878 INFO Experiment.CommunicationP2P-9da0: Finished 120/1000
+15:04:58,879 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 180.
+15:05:05,431 INFO Experiment.CommunicationP2P-9da0: Finished 130/1000
+15:05:05,431 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 195.
+15:05:10,771 INFO Experiment.CommunicationP2P-9da0: Finished 140/1000
+15:05:10,772 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 210.
+15:05:16,59 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+15:05:16,59 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 225.
+15:05:21,610 INFO Experiment.CommunicationP2P-9da0: Finished 160/1000
+15:05:21,611 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 240.
+15:05:27,960 INFO Experiment.CommunicationP2P-9da0: Finished 170/1000
+15:05:27,960 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 255.
+15:05:33,694 INFO Experiment.CommunicationP2P-9da0: Finished 180/1000
+15:05:33,694 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 270.
+15:05:39,223 INFO Experiment.CommunicationP2P-9da0: Finished 190/1000
+15:05:39,223 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 285.
+15:05:44,777 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+15:05:44,777 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 300.
+15:05:50,236 INFO Experiment.CommunicationP2P-9da0: Finished 210/1000
+15:05:50,236 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 315.
+15:05:56,121 INFO Experiment.CommunicationP2P-9da0: Finished 220/1000
+15:05:56,122 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 330.
+15:06:01,462 INFO Experiment.CommunicationP2P-9da0: Finished 230/1000
+15:06:01,462 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 345.
+15:06:06,672 INFO Experiment.CommunicationP2P-9da0: Finished 240/1000
+15:06:06,672 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 360.
+15:06:12,510 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+15:06:12,511 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 375.
+15:06:18,135 INFO Experiment.CommunicationP2P-9da0: Finished 260/1000
+15:06:18,136 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 390.
+15:06:23,742 INFO Experiment.CommunicationP2P-9da0: Finished 270/1000
+15:06:23,743 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 405.
+15:06:29,228 INFO Experiment.CommunicationP2P-9da0: Finished 280/1000
+15:06:29,228 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 420.
+15:06:35,138 INFO Experiment.CommunicationP2P-9da0: Finished 290/1000
+15:06:35,138 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 435.
+15:06:41,67 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+15:06:41,67 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 450.
+15:06:46,398 INFO Experiment.CommunicationP2P-9da0: Finished 310/1000
+15:06:46,399 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 465.
+15:06:51,928 INFO Experiment.CommunicationP2P-9da0: Finished 320/1000
+15:06:51,928 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 480.
+15:06:57,47 INFO Experiment.CommunicationP2P-9da0: Finished 330/1000
+15:06:57,47 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 495.
+15:07:02,850 INFO Experiment.CommunicationP2P-9da0: Finished 340/1000
+15:07:02,851 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 510.
+15:07:08,311 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+15:07:08,311 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 525.
+15:07:13,912 INFO Experiment.CommunicationP2P-9da0: Finished 360/1000
+15:07:13,913 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 540.
+15:07:18,961 INFO Experiment.CommunicationP2P-9da0: Finished 370/1000
+15:07:18,962 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 555.
+15:07:23,990 INFO Experiment.CommunicationP2P-9da0: Finished 380/1000
+15:07:23,990 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 570.
+15:07:29,407 INFO Experiment.CommunicationP2P-9da0: Finished 390/1000
+15:07:29,407 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 585.
+15:07:34,936 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+15:07:34,936 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 600.
+15:07:40,56 INFO Experiment.CommunicationP2P-9da0: Finished 410/1000
+15:07:40,56 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 615.
+15:07:45,287 INFO Experiment.CommunicationP2P-9da0: Finished 420/1000
+15:07:45,287 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 630.
+15:07:51,526 INFO Experiment.CommunicationP2P-9da0: Finished 430/1000
+15:07:51,527 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 645.
+15:07:57,55 INFO Experiment.CommunicationP2P-9da0: Finished 440/1000
+15:07:57,55 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 660.
+15:08:02,585 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+15:08:02,586 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 675.
+15:08:08,319 INFO Experiment.CommunicationP2P-9da0: Finished 460/1000
+15:08:08,319 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 690.
+15:08:14,378 INFO Experiment.CommunicationP2P-9da0: Finished 470/1000
+15:08:14,378 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 705.
+15:08:19,900 INFO Experiment.CommunicationP2P-9da0: Finished 480/1000
+15:08:19,900 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 720.
+15:08:24,932 INFO Experiment.CommunicationP2P-9da0: Finished 490/1000
+15:08:24,932 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 735.
+15:08:30,232 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+15:08:30,233 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 750.
+15:08:35,565 INFO Experiment.CommunicationP2P-9da0: Finished 510/1000
+15:08:35,566 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 765.
+15:08:41,289 INFO Experiment.CommunicationP2P-9da0: Finished 520/1000
+15:08:41,290 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 780.
+15:08:46,822 INFO Experiment.CommunicationP2P-9da0: Finished 530/1000
+15:08:46,822 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 795.
+15:08:52,531 INFO Experiment.CommunicationP2P-9da0: Finished 540/1000
+15:08:52,531 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 810.
+15:08:58,31 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+15:08:58,32 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 825.
+15:09:03,411 INFO Experiment.CommunicationP2P-9da0: Finished 560/1000
+15:09:03,411 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 840.
+15:09:08,736 INFO Experiment.CommunicationP2P-9da0: Finished 570/1000
+15:09:08,736 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 855.
+15:09:14,60 INFO Experiment.CommunicationP2P-9da0: Finished 580/1000
+15:09:14,61 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 870.
+15:09:19,779 INFO Experiment.CommunicationP2P-9da0: Finished 590/1000
+15:09:19,779 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 885.
+15:09:24,688 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+15:09:24,689 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 900.
+15:09:30,445 INFO Experiment.CommunicationP2P-9da0: Finished 610/1000
+15:09:30,446 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 915.
+15:09:35,674 INFO Experiment.CommunicationP2P-9da0: Finished 620/1000
+15:09:35,675 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 930.
+15:09:40,937 INFO Experiment.CommunicationP2P-9da0: Finished 630/1000
+15:09:40,938 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 945.
+15:09:46,612 INFO Experiment.CommunicationP2P-9da0: Finished 640/1000
+15:09:46,612 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 960.
+15:09:51,949 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+15:09:51,950 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 975.
+15:09:57,275 INFO Experiment.CommunicationP2P-9da0: Finished 660/1000
+15:09:57,275 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 990.
+15:10:03,828 INFO Experiment.CommunicationP2P-9da0: Finished 670/1000
+15:10:03,828 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1005.
+15:10:08,799 INFO Experiment.CommunicationP2P-9da0: Finished 680/1000
+15:10:08,799 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1020.
+15:10:14,481 INFO Experiment.CommunicationP2P-9da0: Finished 690/1000
+15:10:14,482 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1035.
+15:10:19,560 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+15:10:19,560 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1050.
+15:10:25,239 INFO Experiment.CommunicationP2P-9da0: Finished 710/1000
+15:10:25,239 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1065.
+15:10:30,558 INFO Experiment.CommunicationP2P-9da0: Finished 720/1000
+15:10:30,558 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1080.
+15:10:35,781 INFO Experiment.CommunicationP2P-9da0: Finished 730/1000
+15:10:35,781 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1095.
+15:10:41,307 INFO Experiment.CommunicationP2P-9da0: Finished 740/1000
+15:10:41,308 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1110.
+15:10:47,41 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+15:10:47,42 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1125.
+15:10:52,571 INFO Experiment.CommunicationP2P-9da0: Finished 760/1000
+15:10:52,572 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1140.
+15:10:57,801 INFO Experiment.CommunicationP2P-9da0: Finished 770/1000
+15:10:57,802 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1155.
+15:11:03,220 INFO Experiment.CommunicationP2P-9da0: Finished 780/1000
+15:11:03,221 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1170.
+15:11:08,751 INFO Experiment.CommunicationP2P-9da0: Finished 790/1000
+15:11:08,751 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1185.
+15:11:14,293 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+15:11:14,294 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1200.
+15:11:19,668 INFO Experiment.CommunicationP2P-9da0: Finished 810/1000
+15:11:19,668 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1215.
+15:11:25,339 INFO Experiment.CommunicationP2P-9da0: Finished 820/1000
+15:11:25,340 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1230.
+15:11:30,664 INFO Experiment.CommunicationP2P-9da0: Finished 830/1000
+15:11:30,664 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1245.
+15:11:37,217 INFO Experiment.CommunicationP2P-9da0: Finished 840/1000
+15:11:37,217 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1260.
+15:11:42,543 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+15:11:42,543 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1275.
+15:11:47,681 INFO Experiment.CommunicationP2P-9da0: Finished 860/1000
+15:11:47,682 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1290.
+15:11:52,997 INFO Experiment.CommunicationP2P-9da0: Finished 870/1000
+15:11:52,997 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1305.
+15:11:57,862 INFO Experiment.CommunicationP2P-9da0: Finished 880/1000
+15:11:57,862 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1320.
+15:12:03,432 INFO Experiment.CommunicationP2P-9da0: Finished 890/1000
+15:12:03,432 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1335.
+15:12:08,571 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+15:12:08,571 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1350.
+15:12:13,672 INFO Experiment.CommunicationP2P-9da0: Finished 910/1000
+15:12:13,673 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1365.
+15:12:19,31 INFO Experiment.CommunicationP2P-9da0: Finished 920/1000
+15:12:19,32 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1380.
+15:12:24,745 INFO Experiment.CommunicationP2P-9da0: Finished 930/1000
+15:12:24,745 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1395.
+15:12:30,57 INFO Experiment.CommunicationP2P-9da0: Finished 940/1000
+15:12:30,57 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1410.
+15:12:35,586 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+15:12:35,586 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1425.
+15:12:41,936 INFO Experiment.CommunicationP2P-9da0: Finished 960/1000
+15:12:41,937 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1440.
+15:12:47,259 INFO Experiment.CommunicationP2P-9da0: Finished 970/1000
+15:12:47,260 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1455.
+15:12:52,789 INFO Experiment.CommunicationP2P-9da0: Finished 980/1000
+15:12:52,790 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1470.
+15:12:58,366 INFO Experiment.CommunicationP2P-9da0: Finished 990/1000
+15:12:58,366 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1485.
+15:13:04,400 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+15:13:04,400 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-1faace22, with 4194304 size, with 10  invocations per function call.
+15:13:04,401 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 0.
+15:13:11,701 INFO Experiment.CommunicationP2P-9da0: Finished 10/1000
+15:13:11,701 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 15.
+15:13:17,830 INFO Experiment.CommunicationP2P-9da0: Finished 20/1000
+15:13:17,830 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 30.
+15:13:24,535 INFO Experiment.CommunicationP2P-9da0: Finished 30/1000
+15:13:24,536 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 45.
+15:13:30,519 INFO Experiment.CommunicationP2P-9da0: Finished 40/1000
+15:13:30,519 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 60.
+15:13:36,525 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+15:13:36,525 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 75.
+15:13:43,238 INFO Experiment.CommunicationP2P-9da0: Finished 60/1000
+15:13:43,239 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 90.
+15:13:49,725 INFO Experiment.CommunicationP2P-9da0: Finished 70/1000
+15:13:49,725 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 105.
+15:13:56,584 INFO Experiment.CommunicationP2P-9da0: Finished 80/1000
+15:13:56,584 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 120.
+15:14:02,523 INFO Experiment.CommunicationP2P-9da0: Finished 90/1000
+15:14:02,523 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 135.
+15:14:09,590 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+15:14:09,590 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 150.
+15:14:16,173 INFO Experiment.CommunicationP2P-9da0: Finished 110/1000
+15:14:16,173 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 165.
+15:14:22,288 INFO Experiment.CommunicationP2P-9da0: Finished 120/1000
+15:14:22,288 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 180.
+15:14:28,689 INFO Experiment.CommunicationP2P-9da0: Finished 130/1000
+15:14:28,690 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 195.
+15:14:35,30 INFO Experiment.CommunicationP2P-9da0: Finished 140/1000
+15:14:35,31 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 210.
+15:14:41,948 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+15:14:41,949 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 225.
+15:14:48,298 INFO Experiment.CommunicationP2P-9da0: Finished 160/1000
+15:14:48,298 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 240.
+15:14:54,554 INFO Experiment.CommunicationP2P-9da0: Finished 170/1000
+15:14:54,554 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 255.
+15:15:00,561 INFO Experiment.CommunicationP2P-9da0: Finished 180/1000
+15:15:00,561 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 270.
+15:15:07,184 INFO Experiment.CommunicationP2P-9da0: Finished 190/1000
+15:15:07,184 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 285.
+15:15:13,776 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+15:15:13,777 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 300.
+15:15:20,265 INFO Experiment.CommunicationP2P-9da0: Finished 210/1000
+15:15:20,266 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 315.
+15:15:27,6 INFO Experiment.CommunicationP2P-9da0: Finished 220/1000
+15:15:27,6 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 330.
+15:15:32,967 INFO Experiment.CommunicationP2P-9da0: Finished 230/1000
+15:15:32,967 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 345.
+15:15:39,794 INFO Experiment.CommunicationP2P-9da0: Finished 240/1000
+15:15:39,794 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 360.
+15:15:46,460 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+15:15:46,460 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 375.
+15:15:52,615 INFO Experiment.CommunicationP2P-9da0: Finished 260/1000
+15:15:52,615 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 390.
+15:15:58,789 INFO Experiment.CommunicationP2P-9da0: Finished 270/1000
+15:15:58,789 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 405.
+15:16:05,99 INFO Experiment.CommunicationP2P-9da0: Finished 280/1000
+15:16:05,99 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 420.
+15:16:11,266 INFO Experiment.CommunicationP2P-9da0: Finished 290/1000
+15:16:11,267 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 435.
+15:16:19,26 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+15:16:19,26 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 450.
+15:16:25,661 INFO Experiment.CommunicationP2P-9da0: Finished 310/1000
+15:16:25,661 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 465.
+15:16:31,694 INFO Experiment.CommunicationP2P-9da0: Finished 320/1000
+15:16:31,695 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 480.
+15:16:37,878 INFO Experiment.CommunicationP2P-9da0: Finished 330/1000
+15:16:37,878 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 495.
+15:16:45,498 INFO Experiment.CommunicationP2P-9da0: Finished 340/1000
+15:16:45,498 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 510.
+15:16:53,91 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+15:16:53,91 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 525.
+15:16:59,599 INFO Experiment.CommunicationP2P-9da0: Finished 360/1000
+15:16:59,599 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 540.
+15:17:06,395 INFO Experiment.CommunicationP2P-9da0: Finished 370/1000
+15:17:06,396 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 555.
+15:17:14,571 INFO Experiment.CommunicationP2P-9da0: Finished 380/1000
+15:17:14,572 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 570.
+15:17:20,915 INFO Experiment.CommunicationP2P-9da0: Finished 390/1000
+15:17:20,916 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 585.
+15:17:27,304 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+15:17:27,305 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 600.
+15:17:33,690 INFO Experiment.CommunicationP2P-9da0: Finished 410/1000
+15:17:33,690 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 615.
+15:17:39,532 INFO Experiment.CommunicationP2P-9da0: Finished 420/1000
+15:17:39,533 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 630.
+15:17:45,476 INFO Experiment.CommunicationP2P-9da0: Finished 430/1000
+15:17:45,476 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 645.
+15:17:52,635 INFO Experiment.CommunicationP2P-9da0: Finished 440/1000
+15:17:52,635 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 660.
+15:17:58,969 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+15:17:58,969 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 675.
+15:18:05,728 INFO Experiment.CommunicationP2P-9da0: Finished 460/1000
+15:18:05,729 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 690.
+15:18:11,655 INFO Experiment.CommunicationP2P-9da0: Finished 470/1000
+15:18:11,656 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 705.
+15:18:17,954 INFO Experiment.CommunicationP2P-9da0: Finished 480/1000
+15:18:17,955 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 720.
+15:18:24,865 INFO Experiment.CommunicationP2P-9da0: Finished 490/1000
+15:18:24,865 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 735.
+15:18:31,459 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+15:18:31,459 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 750.
+15:18:37,626 INFO Experiment.CommunicationP2P-9da0: Finished 510/1000
+15:18:37,626 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 765.
+15:18:44,434 INFO Experiment.CommunicationP2P-9da0: Finished 520/1000
+15:18:44,435 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 780.
+15:18:51,193 INFO Experiment.CommunicationP2P-9da0: Finished 530/1000
+15:18:51,193 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 795.
+15:18:57,539 INFO Experiment.CommunicationP2P-9da0: Finished 540/1000
+15:18:57,539 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 810.
+15:19:03,703 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+15:19:03,703 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 825.
+15:19:09,831 INFO Experiment.CommunicationP2P-9da0: Finished 560/1000
+15:19:09,831 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 840.
+15:19:16,384 INFO Experiment.CommunicationP2P-9da0: Finished 570/1000
+15:19:16,384 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 855.
+15:19:22,733 INFO Experiment.CommunicationP2P-9da0: Finished 580/1000
+15:19:22,733 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 870.
+15:19:29,897 INFO Experiment.CommunicationP2P-9da0: Finished 590/1000
+15:19:29,898 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 885.
+15:19:36,884 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+15:19:36,885 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 900.
+15:19:44,38 INFO Experiment.CommunicationP2P-9da0: Finished 610/1000
+15:19:44,38 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 915.
+15:19:50,641 INFO Experiment.CommunicationP2P-9da0: Finished 620/1000
+15:19:50,642 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 930.
+15:19:56,729 INFO Experiment.CommunicationP2P-9da0: Finished 630/1000
+15:19:56,730 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 945.
+15:20:03,898 INFO Experiment.CommunicationP2P-9da0: Finished 640/1000
+15:20:03,898 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 960.
+15:20:10,485 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+15:20:10,485 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 975.
+15:20:16,686 INFO Experiment.CommunicationP2P-9da0: Finished 660/1000
+15:20:16,687 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 990.
+15:20:22,711 INFO Experiment.CommunicationP2P-9da0: Finished 670/1000
+15:20:22,711 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1005.
+15:20:28,858 INFO Experiment.CommunicationP2P-9da0: Finished 680/1000
+15:20:28,858 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1020.
+15:20:35,231 INFO Experiment.CommunicationP2P-9da0: Finished 690/1000
+15:20:35,232 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1035.
+15:20:41,783 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+15:20:41,784 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1050.
+15:20:48,339 INFO Experiment.CommunicationP2P-9da0: Finished 710/1000
+15:20:48,340 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1065.
+15:20:54,739 INFO Experiment.CommunicationP2P-9da0: Finished 720/1000
+15:20:54,740 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1080.
+15:21:00,738 INFO Experiment.CommunicationP2P-9da0: Finished 730/1000
+15:21:00,739 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1095.
+15:21:06,741 INFO Experiment.CommunicationP2P-9da0: Finished 740/1000
+15:21:06,741 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1110.
+15:21:13,392 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+15:21:13,392 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1125.
+15:21:19,687 INFO Experiment.CommunicationP2P-9da0: Finished 760/1000
+15:21:19,687 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1140.
+15:21:25,851 INFO Experiment.CommunicationP2P-9da0: Finished 770/1000
+15:21:25,851 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1155.
+15:21:31,870 INFO Experiment.CommunicationP2P-9da0: Finished 780/1000
+15:21:31,870 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1170.
+15:21:38,360 INFO Experiment.CommunicationP2P-9da0: Finished 790/1000
+15:21:38,360 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1185.
+15:21:44,660 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+15:21:44,660 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1200.
+15:21:50,598 INFO Experiment.CommunicationP2P-9da0: Finished 810/1000
+15:21:50,607 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1215.
+15:21:57,152 INFO Experiment.CommunicationP2P-9da0: Finished 820/1000
+15:21:57,153 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1230.
+15:22:03,498 INFO Experiment.CommunicationP2P-9da0: Finished 830/1000
+15:22:03,499 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1245.
+15:22:11,84 INFO Experiment.CommunicationP2P-9da0: Finished 840/1000
+15:22:11,84 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1260.
+15:22:17,836 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+15:22:17,837 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1275.
+15:22:24,186 INFO Experiment.CommunicationP2P-9da0: Finished 860/1000
+15:22:24,187 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1290.
+15:22:30,944 INFO Experiment.CommunicationP2P-9da0: Finished 870/1000
+15:22:30,945 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1305.
+15:22:37,294 INFO Experiment.CommunicationP2P-9da0: Finished 880/1000
+15:22:37,294 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1320.
+15:22:43,518 INFO Experiment.CommunicationP2P-9da0: Finished 890/1000
+15:22:43,519 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1335.
+15:22:50,196 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+15:22:50,197 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1350.
+15:22:56,581 INFO Experiment.CommunicationP2P-9da0: Finished 910/1000
+15:22:56,581 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1365.
+15:23:03,827 INFO Experiment.CommunicationP2P-9da0: Finished 920/1000
+15:23:03,827 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1380.
+15:23:10,434 INFO Experiment.CommunicationP2P-9da0: Finished 930/1000
+15:23:10,435 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1395.
+15:23:17,121 INFO Experiment.CommunicationP2P-9da0: Finished 940/1000
+15:23:17,121 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1410.
+15:23:23,627 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+15:23:23,627 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1425.
+15:23:29,580 INFO Experiment.CommunicationP2P-9da0: Finished 960/1000
+15:23:29,580 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1440.
+15:23:36,56 INFO Experiment.CommunicationP2P-9da0: Finished 970/1000
+15:23:36,56 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1455.
+15:23:42,790 INFO Experiment.CommunicationP2P-9da0: Finished 980/1000
+15:23:42,790 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1470.
+15:23:49,384 INFO Experiment.CommunicationP2P-9da0: Finished 990/1000
+15:23:49,384 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1485.
+15:23:55,766 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+15:23:55,766 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-1faace22, with 8388608 size, with 10  invocations per function call.
+15:23:55,767 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 0.
+15:24:04,947 INFO Experiment.CommunicationP2P-9da0: Finished 10/1000
+15:24:04,947 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 15.
+15:24:13,732 INFO Experiment.CommunicationP2P-9da0: Finished 20/1000
+15:24:13,732 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 30.
+15:24:24,219 INFO Experiment.CommunicationP2P-9da0: Finished 30/1000
+15:24:24,219 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 45.
+15:24:33,212 INFO Experiment.CommunicationP2P-9da0: Finished 40/1000
+15:24:33,212 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 60.
+15:24:42,427 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+15:24:42,427 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 75.
+15:24:51,234 INFO Experiment.CommunicationP2P-9da0: Finished 60/1000
+15:24:51,235 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 90.
+15:24:59,836 INFO Experiment.CommunicationP2P-9da0: Finished 70/1000
+15:24:59,837 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 105.
+15:25:09,461 INFO Experiment.CommunicationP2P-9da0: Finished 80/1000
+15:25:09,462 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 120.
+15:25:19,85 INFO Experiment.CommunicationP2P-9da0: Finished 90/1000
+15:25:19,85 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 135.
+15:25:28,121 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+15:25:28,121 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 150.
+15:25:38,6 INFO Experiment.CommunicationP2P-9da0: Finished 110/1000
+15:25:38,6 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 165.
+15:25:47,145 INFO Experiment.CommunicationP2P-9da0: Finished 120/1000
+15:25:47,145 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 180.
+15:25:55,701 INFO Experiment.CommunicationP2P-9da0: Finished 130/1000
+15:25:55,701 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 195.
+15:26:04,164 INFO Experiment.CommunicationP2P-9da0: Finished 140/1000
+15:26:04,164 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 210.
+15:26:13,687 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+15:26:13,688 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 225.
+15:26:22,881 INFO Experiment.CommunicationP2P-9da0: Finished 160/1000
+15:26:22,881 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 240.
+15:26:32,289 INFO Experiment.CommunicationP2P-9da0: Finished 170/1000
+15:26:32,290 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 255.
+15:26:41,417 INFO Experiment.CommunicationP2P-9da0: Finished 180/1000
+15:26:41,417 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 270.
+15:26:50,427 INFO Experiment.CommunicationP2P-9da0: Finished 190/1000
+15:26:50,427 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 285.
+15:26:59,518 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+15:26:59,519 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 300.
+15:27:08,290 INFO Experiment.CommunicationP2P-9da0: Finished 210/1000
+15:27:08,291 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 315.
+15:27:17,489 INFO Experiment.CommunicationP2P-9da0: Finished 220/1000
+15:27:17,490 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 330.
+15:27:25,786 INFO Experiment.CommunicationP2P-9da0: Finished 230/1000
+15:27:25,786 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 345.
+15:27:37,229 INFO Experiment.CommunicationP2P-9da0: Finished 240/1000
+15:27:37,229 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 360.
+15:27:46,677 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+15:27:46,678 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 375.
+15:27:56,167 INFO Experiment.CommunicationP2P-9da0: Finished 260/1000
+15:27:56,168 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 390.
+15:28:07,843 INFO Experiment.CommunicationP2P-9da0: Finished 270/1000
+15:28:07,844 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 405.
+15:28:16,857 INFO Experiment.CommunicationP2P-9da0: Finished 280/1000
+15:28:16,857 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 420.
+15:28:30,420 INFO Experiment.CommunicationP2P-9da0: Finished 290/1000
+15:28:30,421 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 435.
+15:28:39,178 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+15:28:39,179 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 450.
+15:28:49,213 INFO Experiment.CommunicationP2P-9da0: Finished 310/1000
+15:28:49,214 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 465.
+15:28:58,297 INFO Experiment.CommunicationP2P-9da0: Finished 320/1000
+15:28:58,298 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 480.
+15:29:07,41 INFO Experiment.CommunicationP2P-9da0: Finished 330/1000
+15:29:07,42 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 495.
+15:29:15,529 INFO Experiment.CommunicationP2P-9da0: Finished 340/1000
+15:29:15,530 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 510.
+15:29:24,643 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+15:29:24,643 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 525.
+15:29:35,361 INFO Experiment.CommunicationP2P-9da0: Finished 360/1000
+15:29:35,361 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 540.
+15:29:48,218 INFO Experiment.CommunicationP2P-9da0: Finished 370/1000
+15:29:48,218 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 555.
+15:29:57,525 INFO Experiment.CommunicationP2P-9da0: Finished 380/1000
+15:29:57,525 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 570.
+15:30:06,457 INFO Experiment.CommunicationP2P-9da0: Finished 390/1000
+15:30:06,457 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 585.
+15:30:14,820 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+15:30:14,820 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 600.
+15:30:24,315 INFO Experiment.CommunicationP2P-9da0: Finished 410/1000
+15:30:24,316 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 615.
+15:30:33,47 INFO Experiment.CommunicationP2P-9da0: Finished 420/1000
+15:30:33,48 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 630.
+15:30:42,259 INFO Experiment.CommunicationP2P-9da0: Finished 430/1000
+15:30:42,260 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 645.
+15:30:51,69 INFO Experiment.CommunicationP2P-9da0: Finished 440/1000
+15:30:51,70 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 660.
+15:31:01,103 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+15:31:01,104 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 675.
+15:31:11,594 INFO Experiment.CommunicationP2P-9da0: Finished 460/1000
+15:31:11,594 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 690.
+15:31:20,406 INFO Experiment.CommunicationP2P-9da0: Finished 470/1000
+15:31:20,406 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 705.
+15:31:34,279 INFO Experiment.CommunicationP2P-9da0: Finished 480/1000
+15:31:34,279 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 720.
+15:31:43,773 INFO Experiment.CommunicationP2P-9da0: Finished 490/1000
+15:31:43,774 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 735.
+15:31:53,129 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+15:31:53,129 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 750.
+15:32:03,565 INFO Experiment.CommunicationP2P-9da0: Finished 510/1000
+15:32:03,565 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 765.
+15:32:13,433 INFO Experiment.CommunicationP2P-9da0: Finished 520/1000
+15:32:13,433 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 780.
+15:32:21,996 INFO Experiment.CommunicationP2P-9da0: Finished 530/1000
+15:32:21,996 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 795.
+15:32:32,95 INFO Experiment.CommunicationP2P-9da0: Finished 540/1000
+15:32:32,95 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 810.
+15:32:42,144 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+15:32:42,144 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 825.
+15:32:51,82 INFO Experiment.CommunicationP2P-9da0: Finished 560/1000
+15:32:51,83 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 840.
+15:33:00,334 INFO Experiment.CommunicationP2P-9da0: Finished 570/1000
+15:33:00,335 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 855.
+15:33:09,601 INFO Experiment.CommunicationP2P-9da0: Finished 580/1000
+15:33:09,602 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 870.
+15:33:20,78 INFO Experiment.CommunicationP2P-9da0: Finished 590/1000
+15:33:20,79 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 885.
+15:33:29,24 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+15:33:29,24 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 900.
+15:33:37,405 INFO Experiment.CommunicationP2P-9da0: Finished 610/1000
+15:33:37,405 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 915.
+15:33:46,993 INFO Experiment.CommunicationP2P-9da0: Finished 620/1000
+15:33:46,994 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 930.
+15:34:02,763 INFO Experiment.CommunicationP2P-9da0: Finished 630/1000
+15:34:02,764 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 945.
+15:34:11,899 INFO Experiment.CommunicationP2P-9da0: Finished 640/1000
+15:34:11,900 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 960.
+15:34:20,468 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+15:34:20,468 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 975.
+15:34:29,93 INFO Experiment.CommunicationP2P-9da0: Finished 660/1000
+15:34:29,93 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 990.
+15:34:37,989 INFO Experiment.CommunicationP2P-9da0: Finished 670/1000
+15:34:37,989 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1005.
+15:34:46,792 INFO Experiment.CommunicationP2P-9da0: Finished 680/1000
+15:34:46,792 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1020.
+15:34:56,11 INFO Experiment.CommunicationP2P-9da0: Finished 690/1000
+15:34:56,12 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1035.
+15:35:04,612 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+15:35:04,613 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1050.
+15:35:13,344 INFO Experiment.CommunicationP2P-9da0: Finished 710/1000
+15:35:13,344 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1065.
+15:35:22,256 INFO Experiment.CommunicationP2P-9da0: Finished 720/1000
+15:35:22,257 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1080.
+15:35:32,291 INFO Experiment.CommunicationP2P-9da0: Finished 730/1000
+15:35:32,291 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1095.
+15:35:40,685 INFO Experiment.CommunicationP2P-9da0: Finished 740/1000
+15:35:40,685 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1110.
+15:35:51,174 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+15:35:51,174 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1125.
+15:36:00,202 INFO Experiment.CommunicationP2P-9da0: Finished 760/1000
+15:36:00,203 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1140.
+15:36:09,560 INFO Experiment.CommunicationP2P-9da0: Finished 770/1000
+15:36:09,560 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1155.
+15:36:18,42 INFO Experiment.CommunicationP2P-9da0: Finished 780/1000
+15:36:18,43 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1170.
+15:36:29,196 INFO Experiment.CommunicationP2P-9da0: Finished 790/1000
+15:36:29,196 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1185.
+15:36:42,98 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+15:36:42,99 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1200.
+15:36:51,220 INFO Experiment.CommunicationP2P-9da0: Finished 810/1000
+15:36:51,221 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1215.
+15:37:01,977 INFO Experiment.CommunicationP2P-9da0: Finished 820/1000
+15:37:01,977 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1230.
+15:37:10,770 INFO Experiment.CommunicationP2P-9da0: Finished 830/1000
+15:37:10,770 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1245.
+15:37:20,479 INFO Experiment.CommunicationP2P-9da0: Finished 840/1000
+15:37:20,479 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1260.
+15:37:29,532 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+15:37:29,532 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1275.
+15:37:38,212 INFO Experiment.CommunicationP2P-9da0: Finished 860/1000
+15:37:38,213 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1290.
+15:37:47,634 INFO Experiment.CommunicationP2P-9da0: Finished 870/1000
+15:37:47,635 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1305.
+15:37:57,515 INFO Experiment.CommunicationP2P-9da0: Finished 880/1000
+15:37:57,515 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1320.
+15:38:05,994 INFO Experiment.CommunicationP2P-9da0: Finished 890/1000
+15:38:05,995 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1335.
+15:38:17,965 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+15:38:17,965 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1350.
+15:38:26,387 INFO Experiment.CommunicationP2P-9da0: Finished 910/1000
+15:38:26,387 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1365.
+15:38:37,452 INFO Experiment.CommunicationP2P-9da0: Finished 920/1000
+15:38:37,452 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1380.
+15:38:47,231 INFO Experiment.CommunicationP2P-9da0: Finished 930/1000
+15:38:47,232 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1395.
+15:38:56,242 INFO Experiment.CommunicationP2P-9da0: Finished 940/1000
+15:38:56,242 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1410.
+15:39:05,549 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+15:39:05,549 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1425.
+15:39:15,486 INFO Experiment.CommunicationP2P-9da0: Finished 960/1000
+15:39:15,486 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1440.
+15:39:24,929 INFO Experiment.CommunicationP2P-9da0: Finished 970/1000
+15:39:24,930 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1455.
+15:39:36,598 INFO Experiment.CommunicationP2P-9da0: Finished 980/1000
+15:39:36,599 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1470.
+15:39:46,213 INFO Experiment.CommunicationP2P-9da0: Finished 990/1000
+15:39:46,214 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1485.
+15:39:55,255 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+15:39:55,255 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-1faace22, with 16777216 size, with 10  invocations per function call.
+15:39:55,256 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 0.
+15:40:09,764 INFO Experiment.CommunicationP2P-9da0: Finished 10/1000
+15:40:09,765 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 15.
+15:40:23,896 INFO Experiment.CommunicationP2P-9da0: Finished 20/1000
+15:40:23,897 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 30.
+15:40:40,483 INFO Experiment.CommunicationP2P-9da0: Finished 30/1000
+15:40:40,483 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 45.
+15:40:53,802 INFO Experiment.CommunicationP2P-9da0: Finished 40/1000
+15:40:53,803 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 60.
+15:41:12,638 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+15:41:12,639 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 75.
+15:41:27,426 INFO Experiment.CommunicationP2P-9da0: Finished 60/1000
+15:41:27,426 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 90.
+15:41:39,671 INFO Experiment.CommunicationP2P-9da0: Finished 70/1000
+15:41:39,672 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 105.
+15:41:54,44 INFO Experiment.CommunicationP2P-9da0: Finished 80/1000
+15:41:54,45 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 120.
+15:42:07,934 INFO Experiment.CommunicationP2P-9da0: Finished 90/1000
+15:42:07,935 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 135.
+15:42:21,779 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+15:42:21,780 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 150.
+15:42:35,137 INFO Experiment.CommunicationP2P-9da0: Finished 110/1000
+15:42:35,137 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 165.
+15:42:48,287 INFO Experiment.CommunicationP2P-9da0: Finished 120/1000
+15:42:48,288 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 180.
+15:43:01,851 INFO Experiment.CommunicationP2P-9da0: Finished 130/1000
+15:43:01,852 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 195.
+15:43:15,563 INFO Experiment.CommunicationP2P-9da0: Finished 140/1000
+15:43:15,564 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 210.
+15:43:34,663 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+15:43:34,663 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 225.
+15:43:47,686 INFO Experiment.CommunicationP2P-9da0: Finished 160/1000
+15:43:47,687 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 240.
+15:44:01,475 INFO Experiment.CommunicationP2P-9da0: Finished 170/1000
+15:44:01,475 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 255.
+15:44:14,500 INFO Experiment.CommunicationP2P-9da0: Finished 180/1000
+15:44:14,501 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 270.
+15:44:27,606 INFO Experiment.CommunicationP2P-9da0: Finished 190/1000
+15:44:27,607 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 285.
+15:44:41,87 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+15:44:41,88 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 300.
+15:44:55,49 INFO Experiment.CommunicationP2P-9da0: Finished 210/1000
+15:44:55,50 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 315.
+15:45:11,65 INFO Experiment.CommunicationP2P-9da0: Finished 220/1000
+15:45:11,65 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 330.
+15:45:25,460 INFO Experiment.CommunicationP2P-9da0: Finished 230/1000
+15:45:25,460 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 345.
+15:45:38,124 INFO Experiment.CommunicationP2P-9da0: Finished 240/1000
+15:45:38,124 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 360.
+15:45:51,369 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+15:45:51,370 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 375.
+15:46:04,884 INFO Experiment.CommunicationP2P-9da0: Finished 260/1000
+15:46:04,884 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 390.
+15:46:17,720 INFO Experiment.CommunicationP2P-9da0: Finished 270/1000
+15:46:17,720 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 405.
+15:46:31,101 INFO Experiment.CommunicationP2P-9da0: Finished 280/1000
+15:46:31,102 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 420.
+15:46:44,829 INFO Experiment.CommunicationP2P-9da0: Finished 290/1000
+15:46:44,829 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 435.
+15:47:01,206 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+15:47:01,207 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 450.
+15:47:14,263 INFO Experiment.CommunicationP2P-9da0: Finished 310/1000
+15:47:14,264 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 465.
+15:47:27,669 INFO Experiment.CommunicationP2P-9da0: Finished 320/1000
+15:47:27,669 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 480.
+15:47:42,6 INFO Experiment.CommunicationP2P-9da0: Finished 330/1000
+15:47:42,7 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 495.
+15:47:56,912 INFO Experiment.CommunicationP2P-9da0: Finished 340/1000
+15:47:56,913 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 510.
+15:48:10,631 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+15:48:10,631 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 525.
+15:48:29,885 INFO Experiment.CommunicationP2P-9da0: Finished 360/1000
+15:48:29,886 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 540.
+15:48:44,221 INFO Experiment.CommunicationP2P-9da0: Finished 370/1000
+15:48:44,222 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 555.
+15:48:58,351 INFO Experiment.CommunicationP2P-9da0: Finished 380/1000
+15:48:58,352 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 570.
+15:49:12,688 INFO Experiment.CommunicationP2P-9da0: Finished 390/1000
+15:49:12,688 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 585.
+15:49:26,819 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+15:49:26,819 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 600.
+15:49:41,884 INFO Experiment.CommunicationP2P-9da0: Finished 410/1000
+15:49:41,884 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 615.
+15:49:54,672 INFO Experiment.CommunicationP2P-9da0: Finished 420/1000
+15:49:54,672 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 630.
+15:50:11,361 INFO Experiment.CommunicationP2P-9da0: Finished 430/1000
+15:50:11,362 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 645.
+15:50:25,187 INFO Experiment.CommunicationP2P-9da0: Finished 440/1000
+15:50:25,188 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 660.
+15:50:40,752 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+15:50:40,752 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 675.
+15:50:53,859 INFO Experiment.CommunicationP2P-9da0: Finished 460/1000
+15:50:53,860 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 690.
+15:51:07,784 INFO Experiment.CommunicationP2P-9da0: Finished 470/1000
+15:51:07,784 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 705.
+15:51:20,481 INFO Experiment.CommunicationP2P-9da0: Finished 480/1000
+15:51:20,481 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 720.
+15:51:34,23 INFO Experiment.CommunicationP2P-9da0: Finished 490/1000
+15:51:34,23 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 735.
+15:51:47,312 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+15:51:47,312 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 750.
+15:52:01,258 INFO Experiment.CommunicationP2P-9da0: Finished 510/1000
+15:52:01,258 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 765.
+15:52:14,165 INFO Experiment.CommunicationP2P-9da0: Finished 520/1000
+15:52:14,165 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 780.
+15:52:28,476 INFO Experiment.CommunicationP2P-9da0: Finished 530/1000
+15:52:28,476 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 795.
+15:52:41,972 INFO Experiment.CommunicationP2P-9da0: Finished 540/1000
+15:52:41,973 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 810.
+15:52:55,566 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+15:52:55,566 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 825.
+15:53:10,51 INFO Experiment.CommunicationP2P-9da0: Finished 560/1000
+15:53:10,51 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 840.
+15:53:24,871 INFO Experiment.CommunicationP2P-9da0: Finished 570/1000
+15:53:24,872 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 855.
+15:53:38,352 INFO Experiment.CommunicationP2P-9da0: Finished 580/1000
+15:53:38,353 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 870.
+15:53:52,45 INFO Experiment.CommunicationP2P-9da0: Finished 590/1000
+15:53:52,46 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 885.
+15:54:05,565 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+15:54:05,565 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 900.
+15:54:28,677 INFO Experiment.CommunicationP2P-9da0: Finished 610/1000
+15:54:28,677 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 915.
+15:54:41,610 INFO Experiment.CommunicationP2P-9da0: Finished 620/1000
+15:54:41,611 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 930.
+15:54:55,316 INFO Experiment.CommunicationP2P-9da0: Finished 630/1000
+15:54:55,316 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 945.
+15:55:08,930 INFO Experiment.CommunicationP2P-9da0: Finished 640/1000
+15:55:08,930 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 960.
+15:55:21,942 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+15:55:21,942 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 975.
+15:55:35,458 INFO Experiment.CommunicationP2P-9da0: Finished 660/1000
+15:55:35,459 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 990.
+15:55:49,210 INFO Experiment.CommunicationP2P-9da0: Finished 670/1000
+15:55:49,211 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1005.
+15:56:02,287 INFO Experiment.CommunicationP2P-9da0: Finished 680/1000
+15:56:02,288 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1020.
+15:56:15,396 INFO Experiment.CommunicationP2P-9da0: Finished 690/1000
+15:56:15,396 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1035.
+15:56:28,707 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+15:56:28,707 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1050.
+15:56:42,28 INFO Experiment.CommunicationP2P-9da0: Finished 710/1000
+15:56:42,28 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1065.
+15:56:56,246 INFO Experiment.CommunicationP2P-9da0: Finished 720/1000
+15:56:56,246 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1080.
+15:57:09,366 INFO Experiment.CommunicationP2P-9da0: Finished 730/1000
+15:57:09,366 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1095.
+15:57:23,567 INFO Experiment.CommunicationP2P-9da0: Finished 740/1000
+15:57:23,568 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1110.
+15:57:37,110 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+15:57:37,110 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1125.
+15:57:51,879 INFO Experiment.CommunicationP2P-9da0: Finished 760/1000
+15:57:51,879 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1140.
+15:58:05,983 INFO Experiment.CommunicationP2P-9da0: Finished 770/1000
+15:58:05,983 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1155.
+15:58:19,708 INFO Experiment.CommunicationP2P-9da0: Finished 780/1000
+15:58:19,709 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1170.
+15:58:38,960 INFO Experiment.CommunicationP2P-9da0: Finished 790/1000
+15:58:38,961 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1185.
+15:58:53,297 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+15:58:53,297 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1200.
+15:59:12,750 INFO Experiment.CommunicationP2P-9da0: Finished 810/1000
+15:59:12,750 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1215.
+15:59:30,125 INFO Experiment.CommunicationP2P-9da0: Finished 820/1000
+15:59:30,125 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1230.
+15:59:44,291 INFO Experiment.CommunicationP2P-9da0: Finished 830/1000
+15:59:44,292 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1245.
+15:59:57,123 INFO Experiment.CommunicationP2P-9da0: Finished 840/1000
+15:59:57,124 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1260.
+16:00:10,946 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+16:00:10,947 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1275.
+16:00:24,431 INFO Experiment.CommunicationP2P-9da0: Finished 860/1000
+16:00:24,432 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1290.
+16:00:37,45 INFO Experiment.CommunicationP2P-9da0: Finished 870/1000
+16:00:37,46 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1305.
+16:00:52,693 INFO Experiment.CommunicationP2P-9da0: Finished 880/1000
+16:00:52,693 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1320.
+16:01:06,824 INFO Experiment.CommunicationP2P-9da0: Finished 890/1000
+16:01:06,825 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1335.
+16:01:20,547 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+16:01:20,548 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1350.
+16:01:34,139 INFO Experiment.CommunicationP2P-9da0: Finished 910/1000
+16:01:34,140 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1365.
+16:01:48,246 INFO Experiment.CommunicationP2P-9da0: Finished 920/1000
+16:01:48,246 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1380.
+16:02:01,597 INFO Experiment.CommunicationP2P-9da0: Finished 930/1000
+16:02:01,598 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1395.
+16:02:14,981 INFO Experiment.CommunicationP2P-9da0: Finished 940/1000
+16:02:14,981 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1410.
+16:02:29,449 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+16:02:29,449 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1425.
+16:02:43,533 INFO Experiment.CommunicationP2P-9da0: Finished 960/1000
+16:02:43,533 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1440.
+16:02:58,878 INFO Experiment.CommunicationP2P-9da0: Finished 970/1000
+16:02:58,879 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1455.
+16:03:13,81 INFO Experiment.CommunicationP2P-9da0: Finished 980/1000
+16:03:13,81 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1470.
+16:03:26,483 INFO Experiment.CommunicationP2P-9da0: Finished 990/1000
+16:03:26,484 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1485.
+16:03:40,916 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+16:03:40,916 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-1faace22, with 33554432 size, with 10  invocations per function call.
+16:03:40,916 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 0.
+16:04:05,174 INFO Experiment.CommunicationP2P-9da0: Finished 10/1000
+16:04:05,174 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 15.
+16:04:35,232 INFO Experiment.CommunicationP2P-9da0: Finished 20/1000
+16:04:35,232 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 30.
+16:04:58,818 INFO Experiment.CommunicationP2P-9da0: Finished 30/1000
+16:04:58,819 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 45.
+16:05:21,704 INFO Experiment.CommunicationP2P-9da0: Finished 40/1000
+16:05:21,705 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 60.
+16:05:45,670 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+16:05:45,670 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 75.
+16:06:08,14 INFO Experiment.CommunicationP2P-9da0: Finished 60/1000
+16:06:08,14 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 90.
+16:06:30,943 INFO Experiment.CommunicationP2P-9da0: Finished 70/1000
+16:06:30,943 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 105.
+16:06:53,838 INFO Experiment.CommunicationP2P-9da0: Finished 80/1000
+16:06:53,839 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 120.
+16:07:16,301 INFO Experiment.CommunicationP2P-9da0: Finished 90/1000
+16:07:16,301 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 135.
+16:07:41,136 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+16:07:41,136 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 150.
+16:08:19,768 INFO Experiment.CommunicationP2P-9da0: Finished 110/1000
+16:08:19,768 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 165.
+16:08:43,397 INFO Experiment.CommunicationP2P-9da0: Finished 120/1000
+16:08:43,397 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 180.
+16:09:07,821 INFO Experiment.CommunicationP2P-9da0: Finished 130/1000
+16:09:07,822 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 195.
+16:09:37,821 INFO Experiment.CommunicationP2P-9da0: Finished 140/1000
+16:09:37,821 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 210.
+16:10:01,667 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+16:10:01,668 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 225.
+16:10:25,779 INFO Experiment.CommunicationP2P-9da0: Finished 160/1000
+16:10:25,780 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 240.
+16:10:53,55 INFO Experiment.CommunicationP2P-9da0: Finished 170/1000
+16:10:53,56 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 255.
+16:11:16,839 INFO Experiment.CommunicationP2P-9da0: Finished 180/1000
+16:11:16,839 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 270.
+16:11:39,838 INFO Experiment.CommunicationP2P-9da0: Finished 190/1000
+16:11:39,838 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 285.
+16:12:03,403 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+16:12:03,403 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 300.
+16:12:30,123 INFO Experiment.CommunicationP2P-9da0: Finished 210/1000
+16:12:30,123 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 315.
+16:12:52,540 INFO Experiment.CommunicationP2P-9da0: Finished 220/1000
+16:12:52,540 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 330.
+16:13:17,558 INFO Experiment.CommunicationP2P-9da0: Finished 230/1000
+16:13:17,559 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 345.
+16:13:41,606 INFO Experiment.CommunicationP2P-9da0: Finished 240/1000
+16:13:41,606 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 360.
+16:14:07,431 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+16:14:07,432 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 375.
+16:14:32,223 INFO Experiment.CommunicationP2P-9da0: Finished 260/1000
+16:14:32,223 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 390.
+16:14:56,410 INFO Experiment.CommunicationP2P-9da0: Finished 270/1000
+16:14:56,410 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 405.
+16:15:20,337 INFO Experiment.CommunicationP2P-9da0: Finished 280/1000
+16:15:20,337 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 420.
+16:15:42,479 INFO Experiment.CommunicationP2P-9da0: Finished 290/1000
+16:15:42,479 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 435.
+16:16:06,116 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+16:16:06,116 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 450.
+16:16:31,545 INFO Experiment.CommunicationP2P-9da0: Finished 310/1000
+16:16:31,546 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 465.
+16:16:54,618 INFO Experiment.CommunicationP2P-9da0: Finished 320/1000
+16:16:54,618 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 480.
+16:17:18,151 INFO Experiment.CommunicationP2P-9da0: Finished 330/1000
+16:17:18,152 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 495.
+16:17:43,550 INFO Experiment.CommunicationP2P-9da0: Finished 340/1000
+16:17:43,550 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 510.
+16:18:13,115 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+16:18:13,115 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 525.
+16:18:41,265 INFO Experiment.CommunicationP2P-9da0: Finished 360/1000
+16:18:41,266 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 540.
+16:19:04,286 INFO Experiment.CommunicationP2P-9da0: Finished 370/1000
+16:19:04,286 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 555.
+16:19:28,469 INFO Experiment.CommunicationP2P-9da0: Finished 380/1000
+16:19:28,469 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 570.
+16:19:51,863 INFO Experiment.CommunicationP2P-9da0: Finished 390/1000
+16:19:51,864 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 585.
+16:20:16,187 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+16:20:16,187 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 600.
+16:20:41,218 INFO Experiment.CommunicationP2P-9da0: Finished 410/1000
+16:20:41,218 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 615.
+16:21:08,358 INFO Experiment.CommunicationP2P-9da0: Finished 420/1000
+16:21:08,358 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 630.
+16:21:32,771 INFO Experiment.CommunicationP2P-9da0: Finished 430/1000
+16:21:32,771 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 645.
+16:21:57,90 INFO Experiment.CommunicationP2P-9da0: Finished 440/1000
+16:21:57,91 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 660.
+16:22:21,25 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+16:22:21,25 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 675.
+16:22:46,386 INFO Experiment.CommunicationP2P-9da0: Finished 460/1000
+16:22:46,386 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 690.
+16:23:09,893 INFO Experiment.CommunicationP2P-9da0: Finished 470/1000
+16:23:09,894 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 705.
+16:23:35,243 INFO Experiment.CommunicationP2P-9da0: Finished 480/1000
+16:23:35,243 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 720.
+16:23:59,147 INFO Experiment.CommunicationP2P-9da0: Finished 490/1000
+16:23:59,147 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 735.
+16:24:23,896 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+16:24:23,897 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 750.
+16:24:48,217 INFO Experiment.CommunicationP2P-9da0: Finished 510/1000
+16:24:48,218 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 765.
+16:25:11,455 INFO Experiment.CommunicationP2P-9da0: Finished 520/1000
+16:25:11,455 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 780.
+16:25:38,287 INFO Experiment.CommunicationP2P-9da0: Finished 530/1000
+16:25:38,287 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 795.
+16:26:04,778 INFO Experiment.CommunicationP2P-9da0: Finished 540/1000
+16:26:04,779 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 810.
+16:26:32,408 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+16:26:32,408 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 825.
+16:26:54,593 INFO Experiment.CommunicationP2P-9da0: Finished 560/1000
+16:26:54,593 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 840.
+16:27:18,888 INFO Experiment.CommunicationP2P-9da0: Finished 570/1000
+16:27:18,888 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 855.
+16:27:47,372 INFO Experiment.CommunicationP2P-9da0: Finished 580/1000
+16:27:47,375 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 870.
+16:28:10,753 INFO Experiment.CommunicationP2P-9da0: Finished 590/1000
+16:28:10,753 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 885.
+16:28:34,505 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+16:28:34,505 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 900.
+16:28:58,630 INFO Experiment.CommunicationP2P-9da0: Finished 610/1000
+16:28:58,630 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 915.
+16:29:22,838 INFO Experiment.CommunicationP2P-9da0: Finished 620/1000
+16:29:22,838 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 930.
+16:29:44,900 INFO Experiment.CommunicationP2P-9da0: Finished 630/1000
+16:29:44,900 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 945.
+16:30:09,478 INFO Experiment.CommunicationP2P-9da0: Finished 640/1000
+16:30:09,478 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 960.
+16:30:31,998 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+16:30:31,998 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 975.
+16:30:56,377 INFO Experiment.CommunicationP2P-9da0: Finished 660/1000
+16:30:56,377 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 990.
+16:31:24,828 INFO Experiment.CommunicationP2P-9da0: Finished 670/1000
+16:31:24,828 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1005.
+16:31:47,374 INFO Experiment.CommunicationP2P-9da0: Finished 680/1000
+16:31:47,375 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1020.
+16:32:13,925 INFO Experiment.CommunicationP2P-9da0: Finished 690/1000
+16:32:13,926 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1035.
+16:32:39,598 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+16:32:39,599 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1050.
+16:33:02,414 INFO Experiment.CommunicationP2P-9da0: Finished 710/1000
+16:33:02,415 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1065.
+16:33:35,105 INFO Experiment.CommunicationP2P-9da0: Finished 720/1000
+16:33:35,106 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1080.
+16:33:58,856 INFO Experiment.CommunicationP2P-9da0: Finished 730/1000
+16:33:58,857 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1095.
+16:34:23,842 INFO Experiment.CommunicationP2P-9da0: Finished 740/1000
+16:34:23,842 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1110.
+16:34:47,598 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+16:34:47,599 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1125.
+16:35:11,354 INFO Experiment.CommunicationP2P-9da0: Finished 760/1000
+16:35:11,354 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1140.
+16:35:37,162 INFO Experiment.CommunicationP2P-9da0: Finished 770/1000
+16:35:37,163 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1155.
+16:35:59,893 INFO Experiment.CommunicationP2P-9da0: Finished 780/1000
+16:35:59,894 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1170.
+16:36:27,543 INFO Experiment.CommunicationP2P-9da0: Finished 790/1000
+16:36:27,543 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1185.
+16:36:51,298 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+16:36:51,299 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1200.
+16:37:14,645 INFO Experiment.CommunicationP2P-9da0: Finished 810/1000
+16:37:14,645 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1215.
+16:37:37,917 INFO Experiment.CommunicationP2P-9da0: Finished 820/1000
+16:37:37,917 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1230.
+16:38:01,136 INFO Experiment.CommunicationP2P-9da0: Finished 830/1000
+16:38:01,137 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1245.
+16:38:27,761 INFO Experiment.CommunicationP2P-9da0: Finished 840/1000
+16:38:27,762 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1260.
+16:38:50,698 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+16:38:50,699 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1275.
+16:39:14,375 INFO Experiment.CommunicationP2P-9da0: Finished 860/1000
+16:39:14,376 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1290.
+16:39:41,284 INFO Experiment.CommunicationP2P-9da0: Finished 870/1000
+16:39:41,284 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1305.
+16:40:06,884 INFO Experiment.CommunicationP2P-9da0: Finished 880/1000
+16:40:06,885 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1320.
+16:40:29,412 INFO Experiment.CommunicationP2P-9da0: Finished 890/1000
+16:40:29,412 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1335.
+16:40:51,733 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+16:40:51,733 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1350.
+16:41:21,227 INFO Experiment.CommunicationP2P-9da0: Finished 910/1000
+16:41:21,227 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1365.
+16:41:44,988 INFO Experiment.CommunicationP2P-9da0: Finished 920/1000
+16:41:44,989 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1380.
+16:42:08,820 INFO Experiment.CommunicationP2P-9da0: Finished 930/1000
+16:42:08,820 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1395.
+16:42:33,930 INFO Experiment.CommunicationP2P-9da0: Finished 940/1000
+16:42:33,931 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1410.
+16:42:56,776 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+16:42:56,776 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1425.
+16:43:20,11 INFO Experiment.CommunicationP2P-9da0: Finished 960/1000
+16:43:20,11 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1440.
+16:43:42,129 INFO Experiment.CommunicationP2P-9da0: Finished 970/1000
+16:43:42,130 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1455.
+16:44:05,886 INFO Experiment.CommunicationP2P-9da0: Finished 980/1000
+16:44:05,886 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1470.
+16:44:29,642 INFO Experiment.CommunicationP2P-9da0: Finished 990/1000
+16:44:29,642 INFO Experiment.CommunicationP2P-9da0: Invoking 10 repetitions, message offset 1485.
+16:44:51,16 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+16:44:51,156 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-c9f38901, with 2097152 size, with 50  invocations per function call.
+16:44:51,156 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 0.
+16:45:08,557 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+16:45:08,558 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 55.
+16:45:24,944 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+16:45:24,944 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 110.
+16:45:42,151 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+16:45:42,151 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 165.
+16:45:57,944 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+16:45:57,945 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 220.
+16:46:14,708 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+16:46:14,708 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 275.
+16:46:30,541 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+16:46:30,543 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 330.
+16:46:47,478 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+16:46:47,478 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 385.
+16:47:02,631 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+16:47:02,632 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 440.
+16:47:18,401 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+16:47:18,401 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 495.
+16:47:35,450 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+16:47:35,451 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 550.
+16:47:52,606 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+16:47:52,606 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 605.
+16:48:10,421 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+16:48:10,421 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 660.
+16:48:26,601 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+16:48:26,601 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 715.
+16:48:45,33 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+16:48:45,33 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 770.
+16:49:00,753 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+16:49:00,754 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 825.
+16:49:16,982 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+16:49:16,982 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 880.
+16:49:32,135 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+16:49:32,135 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 935.
+16:49:48,110 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+16:49:48,111 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 990.
+16:50:04,665 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+16:50:04,666 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 1045.
+16:50:20,799 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+16:50:20,799 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-c9f38901, with 4194304 size, with 50  invocations per function call.
+16:50:20,799 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 0.
+16:50:40,553 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+16:50:40,554 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 55.
+16:51:00,21 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+16:51:00,21 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 110.
+16:51:19,958 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+16:51:19,958 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 165.
+16:51:39,111 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+16:51:39,112 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 220.
+16:51:58,765 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+16:51:58,765 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 275.
+16:52:19,139 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+16:52:19,139 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 330.
+16:52:39,511 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+16:52:39,512 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 385.
+16:52:58,541 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+16:52:58,541 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 440.
+16:53:19,464 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+16:53:19,464 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 495.
+16:53:41,708 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+16:53:41,708 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 550.
+16:54:00,626 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+16:54:00,626 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 605.
+16:54:19,674 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+16:54:19,675 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 660.
+16:54:39,744 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+16:54:39,745 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 715.
+16:54:58,994 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+16:54:58,995 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 770.
+16:55:19,44 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+16:55:19,44 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 825.
+16:55:38,520 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+16:55:38,520 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 880.
+16:55:58,650 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+16:55:58,650 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 935.
+16:56:17,668 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+16:56:17,668 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 990.
+16:56:37,94 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+16:56:37,95 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 1045.
+16:56:56,824 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+16:56:56,824 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-c9f38901, with 8388608 size, with 50  invocations per function call.
+16:56:56,824 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 0.
+16:57:24,619 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+16:57:24,620 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 55.
+16:57:54,536 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+16:57:54,536 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 110.
+16:58:22,976 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+16:58:22,976 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 165.
+16:58:55,705 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+16:58:55,705 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 220.
+16:59:28,659 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+16:59:28,659 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 275.
+17:00:08,857 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+17:00:08,857 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 330.
+17:00:40,192 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+17:00:40,192 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 385.
+17:01:11,47 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+17:01:11,48 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 440.
+17:01:41,429 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+17:01:41,430 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 495.
+17:02:11,941 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+17:02:11,942 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 550.
+17:02:43,482 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+17:02:43,482 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 605.
+17:03:19,321 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+17:03:19,322 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 660.
+17:03:51,95 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+17:03:51,96 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 715.
+17:04:21,173 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+17:04:21,173 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 770.
+17:04:58,789 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+17:04:58,790 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 825.
+17:05:36,743 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+17:05:36,744 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 880.
+17:06:11,974 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+17:06:11,974 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 935.
+17:06:45,372 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+17:06:45,372 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 990.
+17:07:14,886 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+17:07:14,886 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 1045.
+17:07:49,249 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+17:07:49,249 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-c9f38901, with 16777216 size, with 50  invocations per function call.
+17:07:49,249 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 0.
+17:08:35,432 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+17:08:35,433 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 55.
+17:09:33,423 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+17:09:33,423 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 110.
+17:10:22,930 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+17:10:22,931 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 165.
+17:11:08,713 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+17:11:08,713 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 220.
+17:12:02,176 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+17:12:02,176 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 275.
+17:12:53,376 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+17:12:53,376 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 330.
+17:13:43,43 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+17:13:43,43 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 385.
+17:14:32,498 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+17:14:32,498 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 440.
+17:15:21,445 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+17:15:21,445 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 495.
+17:16:17,973 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+17:16:17,973 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 550.
+17:17:10,906 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+17:17:10,906 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 605.
+17:18:04,548 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+17:18:04,548 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 660.
+17:18:53,416 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+17:18:53,417 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 715.
+17:19:43,435 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+17:19:43,435 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 770.
+17:20:33,560 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+17:20:33,560 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 825.
+17:21:20,54 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+17:21:20,54 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 880.
+17:22:06,764 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+17:22:06,764 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 935.
+17:22:57,678 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+17:22:57,678 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 990.
+17:23:47,920 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+17:23:47,920 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 1045.
+17:24:36,236 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+17:24:36,237 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-c9f38901, with 33554432 size, with 50  invocations per function call.
+17:24:36,237 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 0.
+17:25:59,605 INFO Experiment.CommunicationP2P-9da0: Finished 50/1000
+17:25:59,605 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 55.
+17:27:18,89 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+17:27:18,89 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 110.
+17:28:46,312 INFO Experiment.CommunicationP2P-9da0: Finished 150/1000
+17:28:46,312 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 165.
+17:30:04,956 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+17:30:04,957 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 220.
+17:31:31,908 INFO Experiment.CommunicationP2P-9da0: Finished 250/1000
+17:31:31,908 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 275.
+17:32:58,424 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+17:32:58,425 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 330.
+17:34:28,534 INFO Experiment.CommunicationP2P-9da0: Finished 350/1000
+17:34:28,535 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 385.
+17:36:05,612 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+17:36:05,612 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 440.
+17:37:32,37 INFO Experiment.CommunicationP2P-9da0: Finished 450/1000
+17:37:32,37 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 495.
+17:39:03,153 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+17:39:03,154 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 550.
+17:40:21,235 INFO Experiment.CommunicationP2P-9da0: Finished 550/1000
+17:40:21,235 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 605.
+17:41:43,534 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+17:41:43,534 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 660.
+17:43:05,862 INFO Experiment.CommunicationP2P-9da0: Finished 650/1000
+17:43:05,862 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 715.
+17:44:27,985 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+17:44:27,985 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 770.
+17:45:49,702 INFO Experiment.CommunicationP2P-9da0: Finished 750/1000
+17:45:49,702 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 825.
+17:47:16,464 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+17:47:16,464 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 880.
+17:48:44,602 INFO Experiment.CommunicationP2P-9da0: Finished 850/1000
+17:48:44,602 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 935.
+17:50:12,872 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+17:50:12,873 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 990.
+17:51:32,744 INFO Experiment.CommunicationP2P-9da0: Finished 950/1000
+17:51:32,745 INFO Experiment.CommunicationP2P-9da0: Invoking 50 repetitions, message offset 1045.
+17:52:57,119 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+17:52:57,147 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-5d70e72e, with 2097152 size, with 100  invocations per function call.
+17:52:57,147 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 0.
+17:53:27,228 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+17:53:27,229 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 105.
+17:53:55,733 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+17:53:55,733 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 210.
+17:54:25,625 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+17:54:25,626 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 315.
+17:54:54,677 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+17:54:54,678 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 420.
+17:55:24,461 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+17:55:24,461 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 525.
+17:55:56,605 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+17:55:56,606 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 630.
+17:56:26,632 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+17:56:26,633 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 735.
+17:56:59,398 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+17:56:59,399 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 840.
+17:57:28,482 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+17:57:28,483 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 945.
+17:58:00,219 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+17:58:00,219 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-5d70e72e, with 4194304 size, with 100  invocations per function call.
+17:58:00,220 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 0.
+17:58:36,884 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+17:58:36,884 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 105.
+17:59:14,976 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+17:59:14,976 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 210.
+17:59:51,638 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+17:59:51,639 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 315.
+18:00:31,368 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+18:00:31,368 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 420.
+18:01:13,86 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+18:01:13,86 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 525.
+18:01:59,966 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+18:01:59,966 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 630.
+18:02:36,555 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+18:02:36,555 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 735.
+18:03:12,784 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+18:03:12,785 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 840.
+18:03:54,30 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+18:03:54,30 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 945.
+18:04:34,673 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+18:04:34,673 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-5d70e72e, with 8388608 size, with 100  invocations per function call.
+18:04:34,674 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 0.
+18:05:32,428 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+18:05:32,428 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 105.
+18:06:36,529 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+18:06:36,530 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 210.
+18:07:48,844 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+18:07:48,844 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 315.
+18:08:45,757 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+18:08:45,758 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 420.
+18:09:41,149 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+18:09:41,150 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 525.
+18:10:41,676 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+18:10:41,677 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 630.
+18:11:40,894 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+18:11:40,894 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 735.
+18:12:41,134 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+18:12:41,134 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 840.
+18:13:39,647 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+18:13:39,648 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 945.
+18:14:43,729 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+18:14:43,729 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-5d70e72e, with 16777216 size, with 100  invocations per function call.
+18:14:43,730 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 0.
+18:16:18,514 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+18:16:18,514 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 105.
+18:17:49,707 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+18:17:49,708 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 210.
+18:19:25,352 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+18:19:25,352 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 315.
+18:20:59,767 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+18:20:59,767 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 420.
+18:22:36,231 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+18:22:36,231 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 525.
+18:24:10,841 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+18:24:10,842 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 630.
+18:25:43,37 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+18:25:43,37 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 735.
+18:27:15,366 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+18:27:15,367 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 840.
+18:28:49,575 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+18:28:49,575 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 945.
+18:30:23,581 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+18:30:23,581 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-5d70e72e, with 33554432 size, with 100  invocations per function call.
+18:30:23,582 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 0.
+18:33:12,947 INFO Experiment.CommunicationP2P-9da0: Finished 100/1000
+18:33:12,947 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 105.
+18:36:00,680 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+18:36:00,680 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 210.
+18:38:27,930 INFO Experiment.CommunicationP2P-9da0: Finished 300/1000
+18:38:27,930 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 315.
+18:41:11,771 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+18:41:11,771 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 420.
+18:43:44,905 INFO Experiment.CommunicationP2P-9da0: Finished 500/1000
+18:43:44,905 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 525.
+18:46:22,660 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+18:46:22,660 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 630.
+18:49:05,681 INFO Experiment.CommunicationP2P-9da0: Finished 700/1000
+18:49:05,681 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 735.
+18:51:53,104 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+18:51:53,105 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 840.
+18:54:33,567 INFO Experiment.CommunicationP2P-9da0: Finished 900/1000
+18:54:33,568 INFO Experiment.CommunicationP2P-9da0: Invoking 100 repetitions, message offset 945.
+18:57:14,416 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+18:57:14,448 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-91840517, with 2097152 size, with 200  invocations per function call.
+18:57:14,448 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 0.
+18:58:14,549 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+18:58:14,550 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 205.
+18:59:14,965 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+18:59:14,965 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 410.
+19:00:13,128 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+19:00:13,129 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 615.
+19:01:08,834 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+19:01:08,835 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 820.
+19:02:10,931 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+19:02:10,932 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-91840517, with 4194304 size, with 200  invocations per function call.
+19:02:10,932 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 0.
+19:03:25,232 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+19:03:25,233 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 205.
+19:04:36,93 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+19:04:36,94 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 410.
+19:05:48,795 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+19:05:48,795 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 615.
+19:07:00,547 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+19:07:00,547 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 820.
+19:08:20,553 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+19:08:20,553 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-91840517, with 8388608 size, with 200  invocations per function call.
+19:08:20,553 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 0.
+19:10:14,625 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+19:10:14,625 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 205.
+19:12:11,369 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+19:12:11,369 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 410.
+19:14:00,0 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+19:14:00,0 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 615.
+19:15:57,668 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+19:15:57,669 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 820.
+19:17:54,434 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+19:17:54,435 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-91840517, with 16777216 size, with 200  invocations per function call.
+19:17:54,435 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 0.
+19:20:56,265 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+19:20:56,265 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 205.
+19:23:51,199 INFO Experiment.CommunicationP2P-9da0: Finished 400/1000
+19:23:51,199 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 410.
+19:26:58,246 INFO Experiment.CommunicationP2P-9da0: Finished 600/1000
+19:26:58,247 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 615.
+19:30:12,297 INFO Experiment.CommunicationP2P-9da0: Finished 800/1000
+19:30:12,297 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 820.
+19:33:16,208 INFO Experiment.CommunicationP2P-9da0: Finished 1000/1000
+19:33:16,208 INFO Experiment.CommunicationP2P-9da0: Begin experiment aws-storage-91840517, with 33554432 size, with 200  invocations per function call.
+19:33:16,209 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 0.
+19:38:13,692 INFO Experiment.CommunicationP2P-9da0: Finished 200/1000
+19:38:13,693 INFO Experiment.CommunicationP2P-9da0: Invoking 200 repetitions, message offset 205.
