@@ -1,0 +1,43 @@
+{
+  "aws": {
+    "cpp": {
+      "code_package": {
+        "all": {
+          "date": {
+            "created": "2022-05-15 05:19:28.987177",
+            "modified": "2022-05-15 05:19:28.987177"
+          },
+          "hash": "23b00015fdb7765deed113309d238733",
+          "location": "051.communication.storage/aws/cpp/all/benchmark.zip",
+          "size": 12812069
+        }
+      },
+      "functions": {
+        "051_communication_storage_cpp_all": {
+          "arn": "arn:aws:lambda:us-east-1:261490803749:function:051_communication_storage_cpp_all",
+          "benchmark": "051.communication.storage",
+          "bucket": null,
+          "config": {
+            "architecture": "x86",
+            "memory": 2048,
+            "runtime": {
+              "language": "cpp",
+              "version": "all"
+            },
+            "timeout": 900
+          },
+          "hash": "23b00015fdb7765deed113309d238733",
+          "name": "051_communication_storage_cpp_all",
+          "role": "arn:aws:iam::261490803749:role/sebs-lambda-role",
+          "runtime": "all",
+          "triggers": [
+            {
+              "name": "051_communication_storage_cpp_all",
+              "type": "Library"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
