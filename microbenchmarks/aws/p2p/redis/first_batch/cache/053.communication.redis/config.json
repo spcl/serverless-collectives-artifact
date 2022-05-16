@@ -1,0 +1,43 @@
+{
+  "aws": {
+    "cpp": {
+      "code_package": {
+        "all": {
+          "date": {
+            "created": "2022-05-15 18:20:35.907805",
+            "modified": "2022-05-15 21:37:18.540410"
+          },
+          "hash": "37ab2b0c69f62f45f32a13c3792f604b",
+          "location": "053.communication.redis/aws/cpp/all/benchmark.zip",
+          "size": 13415525
+        }
+      },
+      "functions": {
+        "053_communication_redis_cpp_all": {
+          "arn": "arn:aws:lambda:us-east-1:261490803749:function:053_communication_redis_cpp_all",
+          "benchmark": "053.communication.redis",
+          "bucket": null,
+          "config": {
+            "architecture": "x86",
+            "memory": 2048,
+            "runtime": {
+              "language": "cpp",
+              "version": "all"
+            },
+            "timeout": 540
+          },
+          "hash": "37ab2b0c69f62f45f32a13c3792f604b",
+          "name": "053_communication_redis_cpp_all",
+          "role": "arn:aws:iam::261490803749:role/sebs-lambda-role",
+          "runtime": "all",
+          "triggers": [
+            {
+              "name": "053_communication_redis_cpp_all",
+              "type": "Library"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
