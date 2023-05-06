@@ -1,0 +1,9 @@
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/edit_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/aws-lambda-package-natbenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/aws-lambda-package-natbenchmark.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/natbenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/rebuild_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/CMakeFiles/natbenchmark.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/lib/TCPunch/client/CMakeFiles/rebuild_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/lib/TCPunch/client/CMakeFiles/edit_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/nat/build/lib/TCPunch/client/CMakeFiles/tcpunch.dir

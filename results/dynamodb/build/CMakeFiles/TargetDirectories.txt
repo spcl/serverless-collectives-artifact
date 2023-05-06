@@ -1,0 +1,6 @@
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/rebuild_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/edit_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/aws-lambda-package-dynamobenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/aws-lambda-package-dynamobenchmark.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/dynamobenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/dynamodb/build/CMakeFiles/dynamobenchmark.dir

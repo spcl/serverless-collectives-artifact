@@ -1,0 +1,4 @@
+/work/serverless/2022/collectives/LambdaCommBenchmarks/s3/build/CMakeFiles/rebuild_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/s3/build/CMakeFiles/aws-lambda-package-s3benchmark.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/s3/build/CMakeFiles/edit_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/s3/build/CMakeFiles/s3benchmark.dir

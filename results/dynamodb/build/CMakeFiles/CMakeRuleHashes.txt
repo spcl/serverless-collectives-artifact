@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+7df654181d6b49d058c3ff823ad98393 CMakeFiles/aws-lambda-package-dynamobenchmark
+79961eaaeafabc95c17fcf9e79b78b60 CMakeFiles/aws-lambda-package-dynamobenchmark-pingpong

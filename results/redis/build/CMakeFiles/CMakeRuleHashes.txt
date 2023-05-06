@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+42805b9e91317c4fb170bf7e3e632170 CMakeFiles/aws-lambda-package-redisbenchmark
+1a6c4dc3e3eccfdacc43706b08bdc96a CMakeFiles/aws-lambda-package-redisbenchmark-pingpong

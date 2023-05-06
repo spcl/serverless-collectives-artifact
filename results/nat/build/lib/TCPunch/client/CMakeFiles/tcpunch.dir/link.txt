@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtcpunch.a  CMakeFiles/tcpunch.dir/tcpunch.cpp.o
+/usr/bin/ranlib libtcpunch.a

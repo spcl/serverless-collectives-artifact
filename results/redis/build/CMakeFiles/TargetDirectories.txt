@@ -1,0 +1,6 @@
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/rebuild_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/edit_cache.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/aws-lambda-package-redisbenchmark.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/redisbenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/aws-lambda-package-redisbenchmark-pingpong.dir
+/work/serverless/2022/collectives/LambdaCommBenchmarks/redis/build/CMakeFiles/redisbenchmark.dir
