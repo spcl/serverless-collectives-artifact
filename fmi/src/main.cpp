@@ -76,9 +76,11 @@ static invocation_response my_handler(invocation_request const &req)
     std::string res;
 
     for (int i = 0; i < 30; i++) {
-        std::cerr << "iteration " << i << std::endl;
+        if(i % 10 == 0)
+          std::cerr << "iteration " << i << std::endl;
         unsigned long bef, after;
         comm.barrier();
+        //std::cerr << "afer barrier " << i << std::endl;
         if (benchmark == "bcast") {
             FMI::Comm::Data<int> data = peer_id + 1;
             bef = get_time_in_microseconds();
@@ -131,7 +133,8 @@ static invocation_response my_handler(invocation_request const &req)
                 res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(after) + '\n');
             }
         }*/
-        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("S3")->retries()) + '\n');
+        //res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("S3")->retries()) + '\n');
+        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("Redis")->retries()) + '\n');
 
         std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 
