@@ -11,22 +11,8 @@
 # To get the IP
 #aws ec2 describe-instances
 
-zip -ur build/smibenchmark.zip smi.json
-
-# Creating function
-aws lambda create-function \
---function-name smibenchmark3 \
---region eu-central-1 \
---role arn:aws:iam::261490803749:role/lambda-vpc-role \
---runtime provided \
---timeout 30 \
---memory-size 2048 \
---handler smibenchmark \
---zip-file fileb://build/smibenchmark.zip \
---output json > function.json
-
 # Compiling and packaging code into zip file
-#make aws-lambda-package-smibenchmark && zip -ur smibenchmark.zip ../smi.json
+cd build && make aws-lambda-package-smibenchmark && zip -ur smibenchmark.zip ../smi.json && cd ..
 
 # Updating code with newest zip
-#aws lambda update-function-code --function-name fmibenchmark2 --zip-file fileb://build/smibenchmark.zip
+aws lambda update-function-code --region eu-central-1 --function-name smibenchmark3 --zip-file fileb://build/smibenchmark.zip

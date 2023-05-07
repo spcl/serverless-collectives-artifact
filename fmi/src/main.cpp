@@ -75,8 +75,8 @@ static invocation_response my_handler(invocation_request const &req)
 
     std::string res;
 
-    //for (int i = 0; i < 30; i++) {
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 30; i++) {
+        std::cerr << "iteration " << i << std::endl;
         unsigned long bef, after;
         comm.barrier();
         if (benchmark == "bcast") {
@@ -131,12 +131,12 @@ static invocation_response my_handler(invocation_request const &req)
                 res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(after) + '\n');
             }
         }*/
-        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + '\n');
+        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("S3")->retries()) + '\n');
 
         std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-    
+
     }
-  
+
     return invocation_response::success(res, "application/txt");
 }
 
