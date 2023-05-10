@@ -66,6 +66,7 @@ static invocation_response my_handler(invocation_request const &req)
 
     int num_peers = v.GetInteger("numPeers");
     int peer_id = v.GetInteger("peerID");
+    int reps = v.GetInteger("reps");
     std::string benchmark = v.GetString("benchmark");
     std::string timestamp = v.GetString("timestamp");
 
@@ -75,7 +76,7 @@ static invocation_response my_handler(invocation_request const &req)
 
     std::string res;
 
-    for (int i = 0; i < 30; i++) {
+    for (int i = 0; i < reps; i++) {
         if(i % 10 == 0)
           std::cerr << "iteration " << i << std::endl;
         unsigned long bef, after;
@@ -87,7 +88,6 @@ static invocation_response my_handler(invocation_request const &req)
             bcast_benchmark(data, comm);
             after = get_time_in_microseconds();
         } else if (benchmark == "gather") {
-            //long recv_size = 4992;
             long recv_size = 5000;
             long individual_size = recv_size / num_peers;
             FMI::Comm::Data<std::vector<int>> recv(recv_size);
@@ -96,7 +96,6 @@ static invocation_response my_handler(invocation_request const &req)
             gather_benchmark(send, recv, comm);
             after = get_time_in_microseconds();
         } else if (benchmark == "scatter") {
-            //long send_size = 4992;
             long send_size = 5000;
             long individual_size = send_size / num_peers;
             FMI::Comm::Data<std::vector<int>> recv(individual_size);
@@ -134,9 +133,9 @@ static invocation_response my_handler(invocation_request const &req)
             }
         }*/
         //res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("S3")->retries()) + '\n');
-        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("Redis")->retries()) + '\n');
+        res.append(std::to_string(peer_id) + "," + std::to_string(i) + "," + std::to_string(bef) + "," + std::to_string(after) + "," + std::to_string(after-bef) + "," + std::to_string(comm.get_channel("Direct")->retries()) + '\n');
 
-        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
     }
 
